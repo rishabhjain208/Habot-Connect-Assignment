@@ -1,17 +1,18 @@
 // src/App.js
 
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import Profile from './Components/Profile';
-import LoginSignup from './Components/LoginSignup';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import Profile from "./Components/Profile";
+import LoginSignup from "./Components/LoginSignup";
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
+        {/* hi i am rishbha */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login-signup" element={<LoginSignup />} />
