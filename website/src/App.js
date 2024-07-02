@@ -14,6 +14,7 @@ function App() {
         <Navbar />
         {/* hi i am rishbha */}
         {/* ok thik h */}
+        {/* Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login-signup" element={<LoginSignup />} />
