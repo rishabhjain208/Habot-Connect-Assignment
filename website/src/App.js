@@ -16,6 +16,7 @@ function App() {
         {/* ok thik h */}
         {/* Routes */}
         {/* add new Branch */}
+        {/* add new */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login-signup" element={<LoginSignup />} />
