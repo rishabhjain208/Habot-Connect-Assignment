@@ -13,6 +13,7 @@ function App() {
       <div>
         <Navbar />
         {/* hi i am rishbha */}
+        {/* ok thik h */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login-signup" element={<LoginSignup />} />
